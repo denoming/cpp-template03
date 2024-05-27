@@ -1,0 +1,37 @@
+#include "version/ProjectVersion.hpp"
+
+std::string_view
+getProjectVersion()
+{
+    return "@Template03_VERSION@";
+}
+
+unsigned
+getProjectVersionMajor()
+{
+    return @Template03_VERSION_MAJOR@;
+}
+
+unsigned
+getProjectVersionMinor()
+{
+    return @Template03_VERSION_MINOR@ +0;
+}
+
+unsigned
+getProjectVersionPatch()
+{
+    return @Template03_VERSION_PATCH@ +0;
+}
+
+unsigned
+getProjectVersionTweak()
+{
+    return @Template03_VERSION_TWEAK@ +0;
+}
+
+std::string_view
+getProjectGitHash()
+{
+    return "@Template03_GIT_HASH@";
+}
