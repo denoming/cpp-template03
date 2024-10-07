@@ -24,5 +24,5 @@ add_subdirectory(component2)
 
 install(
     TARGETS ${TARGET}
-    COMPONENT MyCompositeApp
+    COMPONENT MyCompositeAppRuntime
 )
