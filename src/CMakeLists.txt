@@ -17,7 +17,7 @@ target_sources(${TARGET}
 
 target_link_libraries(${TARGET} Project::Version My::Component1 My::Component2)
 
-target_compile_features(${TARGET} PRIVATE cxx_std_17)
+target_compile_features(${TARGET} PRIVATE cxx_std_20)
 
 add_subdirectory(component1)
 add_subdirectory(component2)

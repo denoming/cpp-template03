@@ -24,6 +24,6 @@ target_include_directories(
     PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
 )
 
-target_compile_features(${TARGET} PUBLIC cxx_std_17)
+target_compile_features(${TARGET} PUBLIC cxx_std_20)
 
 configure_file(version/ProjectVersion.cpp.in ProjectVersion.cpp @ONLY)

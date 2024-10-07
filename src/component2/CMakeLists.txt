@@ -18,4 +18,4 @@ target_sources(${TARGET}
             src/Component2.cpp
 )
 
-target_compile_features(${TARGET} PUBLIC cxx_std_17)
+target_compile_features(${TARGET} PUBLIC cxx_std_20)
