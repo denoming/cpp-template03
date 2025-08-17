@@ -1,5 +1,8 @@
 # Template03
 
+[![CI](https://github.com/denoming/cpp-template03/actions/workflows/build.yaml/badge.svg)](https://github.com/denoming/cpp-template03/actions/workflows/build.yaml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Name
 
 Multi component binary application
